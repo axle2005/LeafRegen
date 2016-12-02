@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'io.github.axle2005' 
-version = '0.0.1'
+version = '1.0.0'
 description = 'Leaf Regen Plugin '
 
 dependencies {
