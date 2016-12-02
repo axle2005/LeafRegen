@@ -32,7 +32,7 @@ public class ListenerBlockBreak implements EventListener<ChangeBlockEvent> {
 			if (block.equals("minecraft:leaves") || block.equals("minecraft:log")) {
 				if(!(leaf.getCreator().isPresent()))
 				{
-			restore = taskBuilder.execute(() -> restore(leaf)).async().delayTicks(200).submit(plugin);
+			restore = taskBuilder.execute(() -> restore(leaf)).async().delayTicks(24000).submit(plugin);
 				}
 			}
 		}
